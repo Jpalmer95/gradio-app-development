@@ -19,10 +19,10 @@ Provide a portable, self-contained Hermes Agent skill (`gradio-app-development`)
   - [x] Structure under `skills/gradio-app-development/` so `hermes skills tap add` and `hermes skills install` work directly from GitHub.
   - [x] Meet all `NousResearch/hermes-agent` `hermes-agent-skill-authoring` hardline checks (≤60 char description, human-first author attribution, cross-platform `tempfile.gettempdir()`, zero machine-local paths, offline unit tests).
   - [x] Write `README.md`, `QUICKSTART.md`, `AGENTS.md`, and `tests/test_gradio_app_development_skill.py`.
-- [ ] **Phase 4: Upstream Community PR to `NousResearch/hermes-agent`**
-  - [ ] Copy `skills/gradio-app-development/` to `optional-skills/mlops/gradio-app-development/` in `hermes-agent` fork branch.
-  - [ ] Copy `tests/test_gradio_app_development_skill.py` to `tests/skills/test_gradio_app_development_skill.py`.
-  - [ ] Run `python website/scripts/generate-skill-docs.py` with scope discipline and open upstream PR.
+- [x] **Phase 4: Upstream Community PR to `NousResearch/hermes-agent`**
+  - [x] Copy `skills/gradio-app-development/` to `optional-skills/mlops/gradio-app-development/` in `hermes-agent` fork branch (`feat/gradio-app-development-skill`).
+  - [x] Copy `tests/test_gradio_app_development_skill.py` to `tests/skills/test_gradio_app_development_skill.py`.
+  - [x] Run `python website/scripts/generate-skill-docs.py` with scope discipline and open upstream PR: https://github.com/NousResearch/hermes-agent/pull/148087
 
 ## Recorded Architectural Decisions
 
