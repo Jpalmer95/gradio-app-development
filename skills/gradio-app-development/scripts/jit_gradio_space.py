@@ -594,7 +594,7 @@ def cmd_verify(args: argparse.Namespace) -> int:
     print(f"[3/3] Module import OK (demo/app={has_demo}, daggr_graph={has_graph})")
 
     if hasattr(mod, "execute_daggr_pipeline"):
-        img_out, spec_out, trace = mod.execute_daggr_pipeline("smoke test icon", "cyber-cyan", 8)
+        img_out, _spec_out, trace = mod.execute_daggr_pipeline("smoke test icon", "cyber-cyan", 8)
         print(f"      Modular daggr smoke run OK -> output={img_out}, nodes_ran={list(trace.keys())}")
     elif hasattr(mod, "run_task"):
         res = mod.run_task("smoke test")
