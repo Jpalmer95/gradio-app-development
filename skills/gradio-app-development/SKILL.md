@@ -8,7 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [gradio, daggr, huggingface, spaces, zerogpu, workflows, mcp, mlops]
-    related_skills: [huggingface-hub, comfyui]
+    related_skills: [comfyui, modal]
 ---
 
 # Gradio JIT Application & Modular Pipeline Skill
